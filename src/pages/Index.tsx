@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 
 const Index = () => {
@@ -9,7 +8,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex items-center justify-center relative overflow-hidden px-6">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-72 h-72 bg-slate-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -29,7 +28,7 @@ const Index = () => {
 
         {/* Tagline */}
         <div className={`transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <p className="text-slate-600 text-lg md:text-xl font-light tracking-wide max-w-lg mx-auto leading-relaxed">
+          <p className="text-slate-600 text-lg md:text-xl font-light tracking-wide max-w-lg mx-auto leading-relaxed px-4">
             Crafting exceptional experiences with passion and precision
           </p>
         </div>
