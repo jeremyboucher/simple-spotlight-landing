@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 
 const Index = () => {
@@ -20,7 +21,7 @@ const Index = () => {
         {/* Logo */}
         <div className="mb-8 transition-transform duration-300 hover:scale-105">
           <img 
-            src="/lovable-uploads/368bf0df-1168-419a-a98f-ff50aa05f965.png" 
+            src="/lovable-uploads/3d9e1d4c-4dae-4256-884a-9c3f652caad2.png" 
             alt="insanelyGreat Logo" 
             className="mx-auto max-w-md w-full h-auto drop-shadow-sm"
           />
